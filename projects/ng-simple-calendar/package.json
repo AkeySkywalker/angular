@@ -9,6 +9,13 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "keywords": [
+    "angular",
+    "calendar",
+    "service",
+    "simple",
+    "basic"
+  ],
   "author": "Akey Skywalker",
   "license": "MIT"
 }
