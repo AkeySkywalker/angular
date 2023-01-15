@@ -118,6 +118,7 @@ week :
 
 Then, your component.html get the above calendar data.
 The point of this ng-simple-calendar is just gives array data, so it is easy to customize HTML as you want.
+
 Example HTML
 
 ```
