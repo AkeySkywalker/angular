@@ -1,11 +1,14 @@
 {
   "name": "ng-simple-calendar",
   "version": "0.0.11",
+  "description": "This is a very barebones calendar service created for Angular version 15.",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
     "@angular/core": "^15.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "author": "Akey Skywalker",
+  "license": "MIT"
 }
