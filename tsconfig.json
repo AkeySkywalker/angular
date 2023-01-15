@@ -17,6 +17,9 @@
       ],
       "ng-simple-calendar": [
         "dist/ng-simple-calendar"
+      ],
+      "testtest": [
+        "dist/testtest"
       ]
     },
     "declaration": false,

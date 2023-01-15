@@ -3,7 +3,8 @@ import { NgSimpleCalendarService } from './ng-simple-calendar.service';
 
 @Component({
   selector: 'ng-simple-calendar',
-  templateUrl: './ng-simple-calendar.component.html'
+  templateUrl: './ng-simple-calendar.component.html',
+  styleUrls: ['./ng-simple-calendar.component.scss']
 })
 
 export class NgSimpleCalendarComponent {
@@ -54,6 +55,7 @@ export class NgSimpleCalendarComponent {
     this.calendar = this.calendarService.create(this.date, this.today, data);
     this.pickedMonth = new Date(this.date.getTime());
   };
+
   pickDate = (day: number, data: any) => {
     if (data.has) {
       alert(

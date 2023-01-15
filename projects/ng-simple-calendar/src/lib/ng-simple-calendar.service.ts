@@ -62,6 +62,7 @@ export class NgSimpleCalendarService {
       calendarData.unshift({
         dd: '',
         weekday: i,
+        data: []
       });
     }
     var i = calendarData[calendarData.length - 1]['weekday']; // 末日の曜日を取得
@@ -71,6 +72,7 @@ export class NgSimpleCalendarService {
       calendarData.push({
         dd: '',
         weekday: i,
+        data: []
       });
     }
     calendarData.map((val: any, id: number) => {

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { NgSimpleCalendarComponent } from './ng-simple-calendar.component';
 import { CommonModule } from '@angular/common';
+import { NgSimpleCalendarService } from './ng-simple-calendar.service';
 
 @NgModule({
   declarations: [
@@ -8,6 +9,9 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule
+  ],
+  providers: [
+    NgSimpleCalendarService
   ],
   exports: [
     NgSimpleCalendarComponent

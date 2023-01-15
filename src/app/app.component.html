@@ -1,1 +1,22 @@
+<div>
+  <button (click)="setMonth(-1)">Prev</button>
+  <button (click)="setMonth(1)">Next</button>
+  <div>{{ pickedMonth | date : "yyyy年M月" }}</div>
+  <table>
+    <tr>
+      <th *ngFor="let head of header">{{ head }}</th>
+    </tr>
+    <tr class="week" *ngFor="let week of calendar">
+      <td
+        *ngFor="let day of week"
+        (click)="pickDate(day.dd, day.data)"
+        [class.today]="day.today"
+        [class.data]="day.data.has"
+      >
+        {{ day.dd }}
+      </td>
+    </tr>
+  </table>
+</div>
+<hr />
 <ng-simple-calendar></ng-simple-calendar>
