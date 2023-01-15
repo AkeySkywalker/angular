@@ -34,6 +34,7 @@ export class AppComponent {
     ];
 
     this.calendar = this.calendarService.create(this.date, this.today, data);
+    console.log(this.calendar);
   }
 
   setMonth = (num: number) => {
