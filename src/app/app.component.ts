@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CalendarService } from 'my-lib';
+import { NgSimpleCalendarService } from 'ng-simple-calendar';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ export class AppComponent {
   today: any = [];
   pickedMonth: any = [];
 
-  constructor(private calendarService: CalendarService) { }
+  constructor(private calendarService: NgSimpleCalendarService) { }
 
   ngOnInt() {
     this.today = new Date();

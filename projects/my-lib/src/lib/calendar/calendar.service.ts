@@ -28,7 +28,7 @@ export class CalendarService {
       cMonth == dateObj.getMonth()
     )
       hasMonth = true;
-    //TODO: 要素rndはてきとうだよ！テスト表示用。
+
     for (let i = 0; i < lastDay; i++) {
       const day = i + 1;
       let dayData: any = [];

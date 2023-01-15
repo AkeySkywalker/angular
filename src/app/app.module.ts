@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { MyLibModule } from 'my-lib';
+import { NgSimpleCalendarModule } from 'ng-simple-calendar';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { MyLibModule } from 'my-lib';
   ],
   imports: [
     BrowserModule,
-    MyLibModule
+    NgSimpleCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
