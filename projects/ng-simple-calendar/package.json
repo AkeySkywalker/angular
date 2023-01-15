@@ -1,6 +1,6 @@
 {
   "name": "ng-simple-calendar",
-  "version": "0.0.11",
+  "version": "0.0.2",
   "description": "This is a very barebones calendar service created for Angular version 15.",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
