@@ -1,4 +1,4 @@
-# NgSimpleCalendar
+# ng-simple-calendar
 
 This is a very barebones calendar service created for Angular version 15.
 
@@ -144,6 +144,10 @@ Example HTML:
   </table>
 </div>
 ```
+
+## Github
+
+[ng-simple-calendar](https://github.com/AkeySkywalker/angular/tree/main/projects/ng-simple-calendar)
 
 ## License
 
